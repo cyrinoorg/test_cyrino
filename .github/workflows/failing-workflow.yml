@@ -1,0 +1,26 @@
+name: Potentially Failing Workflow
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Run a command that might fail
+      run: |
+        echo "Running a potentially failing command..."
+        if [ $((RANDOM % 2)) -eq 0 ]; then
+          echo "Command succeeded!"
+        else
+          echo "Command failed!" && exit 1
+        fi
