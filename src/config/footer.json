@@ -1,5 +1,18 @@
 {
-  "companyName": "Cyrino",
+  "companyName": "Acme Corporation",
   "copyrightYear": "2025",
-  "license": "All rights reserved"
+  "links": [
+    {
+      "text": "Privacy Policy",
+      "url": "/privacy"
+    },
+    {
+      "text": "Terms of Service",
+      "url": "/terms"
+    },
+    {
+      "text": "Contact Us",
+      "url": "/contact"
+    }
+  ]
 }
