@@ -1,5 +1,5 @@
 {
-  "companyName": "Acme Corporation",
+  "companyName": "Cyrino Tech",
   "copyrightYear": "2025",
   "links": [
     {
@@ -13,6 +13,20 @@
     {
       "text": "Contact Us",
       "url": "/contact"
+    }
+  ],
+  "socialMedia": [
+    {
+      "platform": "Twitter",
+      "url": "https://twitter.com/cyrinotech"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/company/cyrinotech"
+    },
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/cyrinotech"
     }
   ]
 }
