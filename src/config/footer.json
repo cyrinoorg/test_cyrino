@@ -1,32 +1,8 @@
 {
-  "companyName": "Cyrino Tech",
-  "copyrightYear": "2025",
+  "text": "© Cyrino Inc.",
+  "copyrightYear": "2024",
   "links": [
-    {
-      "text": "Privacy Policy",
-      "url": "/privacy"
-    },
-    {
-      "text": "Terms of Service",
-      "url": "/terms"
-    },
-    {
-      "text": "Contact Us",
-      "url": "/contact"
-    }
-  ],
-  "socialMedia": [
-    {
-      "platform": "Twitter",
-      "url": "https://twitter.com/cyrinotech"
-    },
-    {
-      "platform": "LinkedIn",
-      "url": "https://linkedin.com/company/cyrinotech"
-    },
-    {
-      "platform": "GitHub",
-      "url": "https://github.com/cyrinotech"
-    }
+    { "label": "Privacy", "url": "/privacy" },
+    { "label": "Terms", "url": "/terms" }
   ]
 }
